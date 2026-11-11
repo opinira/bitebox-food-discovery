@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FoodDetailsModal } from './components/FoodDetailsModal';
@@ -23,7 +23,7 @@ export const App: React.FC = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <FavoritesProvider>
         <CartProvider>
@@ -59,7 +59,7 @@ export const App: React.FC = () => {
           </ModalProvider>
         </CartProvider>
       </FavoritesProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default App;

@@ -16,7 +16,7 @@ export const foods: FoodItem[] = [
     isVegetarian: false,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/classic-smash-burger.webp',
+    image: './images/food/classic-smash-burger.webp',
     description: 'Double 28-day dry-aged beef patties smashed lace-thin with crispy caramelized edges, double aged American cheese, sweet griddled onions, crisp butterhead lettuce, and secret house smoked umami sauce on a toasted potato brioche bun.',
     ingredients: [
       'Dry-aged Angus beef blend (75/25)',
@@ -60,7 +60,7 @@ export const foods: FoodItem[] = [
     calories: 720,
     isVegetarian: false,
     isPopular: true,
-    image: '/images/food/crispy-chicken-burger.webp',
+    image: './images/food/crispy-chicken-burger.webp',
     description: 'Free-range chicken breast double-dredged in seasoned rice flour and buttermilk for an ultra-crunchy crust, topped with house garlic herb aioli, crunchy dill pickles, and shredded iceberg lettuce on a toasted sesame bun.',
     ingredients: [
       'Buttermilk-marinated chicken breast',
@@ -86,7 +86,7 @@ export const foods: FoodItem[] = [
     isVegetarian: false,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/signature-truffle-burger.webp',
+    image: './images/food/signature-truffle-burger.webp',
     description: 'A thick, juicy half-pound custom prime beef patty seared to medium pink perfection, smothered in black summer truffle butter, cave-aged Gruyère cheese, caramelized balsamic shallots, and fresh baby arugula on a glossy bun.',
     ingredients: [
       'Prime chuck & brisket custom grind',
@@ -115,7 +115,7 @@ export const foods: FoodItem[] = [
     isVegetarian: true,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/truffle-mushroom-pasta.webp',
+    image: './images/food/truffle-mushroom-pasta.webp',
     description: 'Fresh hand-cut egg fettuccine tossed in a silky white wine reduction with pan-roasted golden chanterelles, cremini mushrooms, aromatic French thyme, freshly shaved black winter truffles, and 24-month aged Parmigiano-Reggiano.',
     ingredients: [
       'House-made semolina egg fettuccine',
@@ -141,7 +141,7 @@ export const foods: FoodItem[] = [
     calories: 740,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/creamy-alfredo-pasta.webp',
+    image: './images/food/creamy-alfredo-pasta.webp',
     description: 'A decadent classic reimagined: artisan fettuccine gently folded through an emulsion of rich cultured Normandy butter, whole cream, roasted garlic confit, freshly cracked Tellicherry black peppercorns, and imported pecorino cheese.',
     ingredients: [
       'Fresh ribbon fettuccine',
@@ -167,7 +167,7 @@ export const foods: FoodItem[] = [
     calories: 520,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/pomodoro-tagliatelle.webp',
+    image: './images/food/pomodoro-tagliatelle.webp',
     description: 'Light, silky tagliatelle ribbons swirled in slow-simmered blistered heirloom cherry tomatoes, cold-pressed Sicilian olive oil, sweet crushed garlic, torn fragrant Genovese basil leaves, and shaved salty ricotta salata.',
     ingredients: [
       'Handmade durum tagliatelle',
@@ -196,7 +196,7 @@ export const foods: FoodItem[] = [
     isVegetarian: true,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/margherita-pizza.webp',
+    image: './images/food/margherita-pizza.webp',
     description: '48-hour naturally fermented sourdough crust baked in a 900°F hardwood wood-fired oven. Topped with crushed D.O.P. San Marzano tomatoes, melted buffalo mozzarella di campana, fresh organic basil leaves, and an olive oil drizzle.',
     ingredients: [
       '48-hour fermented sourdough base',
@@ -222,7 +222,7 @@ export const foods: FoodItem[] = [
     calories: 860,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/artisanal-neapolitan-pizza.webp',
+    image: './images/food/artisanal-neapolitan-pizza.webp',
     description: 'Airy, leopard-spotted sourdough rim with a tender melt-in-mouth center. Features a blend of creamy fior di latte cheese, rustic herb-infused tomato sugo, aromatic oregano, and sweet basil leaves.',
     ingredients: [
       'Organic Italian Tipo 00 flour crust',
@@ -250,7 +250,7 @@ export const foods: FoodItem[] = [
     isVegetarian: false,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/korean-fried-chicken.webp',
+    image: './images/food/korean-fried-chicken.webp',
     description: 'Authentic Yangnyeom style double-fried chicken wings and drumettes glazed in a glossy, sticky sweet-heat reduction of fermented gochujang chili paste, honey, toasted sesame oil, and minced garlic, served with chilled pickled radish cubes.',
     ingredients: [
       'Crisp double-fried chicken bone-in wings',
@@ -276,7 +276,7 @@ export const foods: FoodItem[] = [
     calories: 790,
     isVegetarian: false,
     isPopular: false,
-    image: '/images/food/glazed-braised-pork-dimsum.webp',
+    image: './images/food/glazed-braised-pork-dimsum.webp',
     description: 'Slow-braised tender pork belly glazed in sweet soy, star anise, and rock sugar, paired with handcrafted translucent crystal shrimp dumplings steamed in a bamboo basket, baby bok choy, and fragrant jasmine rice.',
     ingredients: [
       'Heritage pork belly slow-braised for 6 hours',
@@ -305,7 +305,7 @@ export const foods: FoodItem[] = [
     isVegetarian: false,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/chilled-seafood-platter.webp',
+    image: './images/food/chilled-seafood-platter.webp',
     description: 'A lavish chilled raw-bar tower presented on crushed ice: half-shell Wellfleet oysters, jumbo wild king prawns, steamed cold-water lobster tail, Alaskan snow crab claws, and blue mussels with shallot mignonette and house horseradish cocktail sauce.',
     ingredients: [
       'Freshly shucked Atlantic oysters',
@@ -331,7 +331,7 @@ export const foods: FoodItem[] = [
     calories: 610,
     isVegetarian: false,
     isPopular: true,
-    image: '/images/food/grilled-salmon-bowl.webp',
+    image: './images/food/grilled-salmon-bowl.webp',
     description: 'Pan-seared wild Alaskan sockeye salmon fillet basted with a gentle citrus teriyaki glaze. Served over warm seasoned sushi rice with fan-sliced Hass avocado, steamed edamame, pickled carrots, cucumber ribbons, and toasted black sesame.',
     ingredients: [
       'Wild Alaskan sockeye salmon fillet',
@@ -359,7 +359,7 @@ export const foods: FoodItem[] = [
     calories: 380,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/mediterranean-salad.webp',
+    image: './images/food/mediterranean-salad.webp',
     description: 'A vibrant bowl of crisp baby spinach, garden romaine, sun-ripened red and yellow cherry tomatoes, Persian cucumbers, Kalamata olives, sliced red onion, and crumbled Greek barrel-aged feta cheese with an oregano vinaigrette.',
     ingredients: [
       'Organic baby spinach & crisp romaine',
@@ -385,7 +385,7 @@ export const foods: FoodItem[] = [
     calories: 490,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/quinoa-power-bowl.webp',
+    image: './images/food/quinoa-power-bowl.webp',
     description: 'Fluffy warm tri-color quinoa layered with honey-roasted sweet potato cubes, spiced crispy chickpeas, sautéed baby kale, purple cabbage ribbons, half a Hass avocado, and a creamy lemon herb tahini drizzle.',
     ingredients: [
       'Organic tri-color Andean quinoa',
@@ -411,7 +411,7 @@ export const foods: FoodItem[] = [
     calories: 460,
     isVegetarian: true,
     isPopular: true,
-    image: '/images/food/avocado-poached-egg-toast.webp',
+    image: './images/food/avocado-poached-egg-toast.webp',
     description: 'Thick-cut grilled country sourdough toast topped with chunky lemon-infused mashed Hass avocado, a soft-poached pasture-raised farm egg with runny golden yolk, thinly sliced radishes, crumbled feta, and micro cilantro.',
     ingredients: [
       'Rustic sourdough country loaf slice',
@@ -437,7 +437,7 @@ export const foods: FoodItem[] = [
     calories: 580,
     isVegetarian: false,
     isPopular: false,
-    image: '/images/food/rosemary-grilled-chicken.webp',
+    image: './images/food/rosemary-grilled-chicken.webp',
     description: 'Herb-marinated free-range chicken breast char-grilled over open coals with roasted young asparagus stalks, heirloom baby carrots, charred lemon halves, and an au jus pan reduction.',
     ingredients: [
       'Free-range chicken breast and thigh cut',
@@ -463,7 +463,7 @@ export const foods: FoodItem[] = [
     calories: 540,
     isVegetarian: false,
     isPopular: true,
-    image: '/images/food/spicy-chicken-wrap.webp',
+    image: './images/food/spicy-chicken-wrap.webp',
     description: 'Charred spiced chicken strips wrapped in a toasted whole wheat tortilla with shredded purple cabbage, cheddar cheese, jalapeño rings, diced tomatoes, and chipotle garlic dipping sauce.',
     ingredients: [
       'Spiced char-grilled chicken breast',
@@ -491,7 +491,7 @@ export const foods: FoodItem[] = [
     isVegetarian: true,
     isPopular: true,
     isChefSpecial: true,
-    image: '/images/food/chocolate-lava-cake.webp',
+    image: './images/food/chocolate-lava-cake.webp',
     description: 'Warm 70% dark Valrhona chocolate cake baked to order with a rich, oozing molten chocolate core. Served with a quenelle of Madagascar vanilla bean gelato, fresh raspberries, and cocoa crumble.',
     ingredients: [
       '70% Valrhona dark Belgian chocolate',
@@ -517,7 +517,7 @@ export const foods: FoodItem[] = [
     calories: 510,
     isVegetarian: true,
     isPopular: true,
-    image: '/images/food/strawberry-cheesecake.webp',
+    image: './images/food/strawberry-cheesecake.webp',
     description: 'Dense, velvety New York style baked cheesecake with a buttery spiced graham cracker crust, topped with ruby strawberry coulis and whole fresh strawberries.',
     ingredients: [
       'Philadelphia cream cheese & heavy cream',
@@ -542,7 +542,7 @@ export const foods: FoodItem[] = [
     calories: 420,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/berry-mirror-mousse.webp',
+    image: './images/food/berry-mirror-mousse.webp',
     description: 'An artisanal pastry masterpiece: dark chocolate mousse dome encasing wild raspberry gelee on a hazelnut sablé base, coated in a glossy crimson mirror glaze and 24k edible gold leaf.',
     ingredients: [
       'Single-origin chocolate mousse',
@@ -569,7 +569,7 @@ export const foods: FoodItem[] = [
     calories: 240,
     isVegetarian: true,
     isPopular: true,
-    image: '/images/food/mango-smoothie.webp',
+    image: './images/food/mango-smoothie.webp',
     description: 'Sun-ripened Alfonso mangoes blended creamy with coconut water, Greek yogurt, a squeeze of fresh lime, and a drizzle of wildflower honey. Garnished with skewered fresh mango cubes and fresh mint.',
     ingredients: [
       'Ripe sweet Alfonso mango chunks',
@@ -594,7 +594,7 @@ export const foods: FoodItem[] = [
     calories: 520,
     isVegetarian: true,
     isPopular: true,
-    image: '/images/food/iced-chocolate-shake.webp',
+    image: './images/food/iced-chocolate-shake.webp',
     description: 'Crafted with premium Dutch chocolate custard, cold milk, and chocolate ganache swirl, crowned with freshly whipped cream, dark chocolate shavings, and a chocolate hazelnut wafer stick.',
     ingredients: [
       'Dutch-process dark chocolate custard',
@@ -619,7 +619,7 @@ export const foods: FoodItem[] = [
     calories: 140,
     isVegetarian: true,
     isPopular: false,
-    image: '/images/food/cold-pressed-citrus-juices.webp',
+    image: './images/food/cold-pressed-citrus-juices.webp',
     description: 'Raw cold-pressed Sicilian blood orange, ruby red grapefruit, wild blackberries, and a splash of passion fruit, served chilled over crushed ice with a fresh rosemary sprig.',
     ingredients: [
       'Blood orange cold-pressed juice',
@@ -646,7 +646,7 @@ export const foods: FoodItem[] = [
     calories: 420,
     isVegetarian: true,
     isPopular: true,
-    image: '/images/food/rosemary-truffle-fries.webp',
+    image: './images/food/rosemary-truffle-fries.webp',
     description: 'Double-fried hand-cut Idaho Russet potatoes tossed with black winter truffle oil, minced fresh rosemary, flaky sea salt, and finely grated pecorino cheese, served with roasted garlic aioli.',
     ingredients: [
       'Hand-cut Idaho Russet potatoes',

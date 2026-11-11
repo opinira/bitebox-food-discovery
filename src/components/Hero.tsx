@@ -144,9 +144,9 @@ export const Hero: React.FC<HeroProps> = ({ onSearch }) => {
               {/* Desktop Hero Image Container */}
               <div className="relative rounded-3xl overflow-hidden shadow-elevated border-4 border-white aspect-[16/10] sm:aspect-[16/10] bg-charcoal">
                 <picture>
-                  <source media="(min-width: 768px)" srcSet="/images/hero/hero-desktop.webp" />
+                  <source media="(min-width: 768px)" srcSet="./images/hero/hero-desktop.webp" />
                   <img
-                    src="/images/hero/hero-mobile.webp"
+                    src="./images/hero/hero-mobile.webp"
                     alt="BiteBox Artisanal Double Smash Burger with Golden Fries and Rustic Pasta"
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                     loading="eager"
